@@ -2,7 +2,7 @@ Commands that are similar to less in Terminal
 
 The command "more"
 ```
-	 docsearch-main more find-results.txt
+docsearch-main more find-results.txt
 written_2/
 written_2//non-fiction
 written_2//non-fiction/OUP
@@ -136,6 +136,7 @@ find-results.txt
 ```
 
 The "more" command is used to display the text files in the command one screen at a time. The -9 expresses the number of lines I want to display per screen. It is useful because you can navigate the commands by scrolling up and down, a convenient method to access the terminal.
+
 Source: https://www.geeksforgeeks.org/more-command-in-linux-with-examples/
 
 The command "head"
@@ -189,6 +190,8 @@ written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2//travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
 The "tail" command displays the last 10 lines in a file, very similar to "head" which displayed the first 10 lines. It is useful for extracting a specific number of lines at the end of a file; the -n 8 portion showcases the last 8 lines, which correlates to the "8" I inputted.
+
+Source: https://www.computerhope.com/unix/utail.htm
 
 The command "cat"
 ```
@@ -433,5 +436,11 @@ written_2//travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
 
 
+
 Although not as similar to "less" as more, head, and tail, the cat command essentially provides a similar service as less does, but instead it displays the entire contents of a file without editing it.
+
+Source: https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/
+
+Other references: OpenAI's ChatGPT AI Language Model
+
 
